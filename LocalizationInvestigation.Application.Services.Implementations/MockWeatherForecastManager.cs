@@ -6,11 +6,6 @@ using System.Linq;
 
 namespace LocalizationInvestigation.Application.Services
 {
-    public interface IWeatherForecastManager
-    {
-        IEnumerable<WeatherForecast> GetWeatherForecast();
-    }
-
     public class MockWeatherForecastManager : IWeatherForecastManager
     {
         private static readonly string[] Summaries = new[]

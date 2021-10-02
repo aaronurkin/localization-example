@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LocalizationInvestigation.Application.Services\LocalizationInvestigation.Application.Services.csproj" />
+    <ProjectReference Include="..\LocalizationInvestigation.Application.Services.Implementations\LocalizationInvestigation.Application.Services.Implementations.csproj" />
   </ItemGroup>
 
 </Project>

@@ -117,34 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="FORECAST_SUMMARY_BALMY" xml:space="preserve">
-    <value>Balmy-{0}</value>
-  </data>
-  <data name="FORECAST_SUMMARY_BRACING" xml:space="preserve">
-    <value>Bracing-{0}</value>
-  </data>
-  <data name="FORECAST_SUMMARY_CHILLY" xml:space="preserve">
-    <value>Chilly-{0}</value>
-  </data>
-  <data name="FORECAST_SUMMARY_COOL" xml:space="preserve">
-    <value>Cool-{0}</value>
-  </data>
-  <data name="FORECAST_SUMMARY_FREEZING" xml:space="preserve">
-    <value>Freezing-{0}</value>
-  </data>
-  <data name="FORECAST_SUMMARY_HOT" xml:space="preserve">
-    <value>Hot-{0}</value>
-  </data>
-  <data name="FORECAST_SUMMARY_MILD" xml:space="preserve">
-    <value>Mild-{0}</value>
-  </data>
-  <data name="FORECAST_SUMMARY_SCORCHING" xml:space="preserve">
-    <value>Scorching-{0}</value>
-  </data>
-  <data name="FORECAST_SUMMARY_SWELTERING" xml:space="preserve">
-    <value>Sweltering-{0}</value>
-  </data>
-  <data name="FORECAST_SUMMARY_WARM" xml:space="preserve">
-    <value>Warm-{0}</value>
+  <data name="COMMON" xml:space="preserve">
+    <value>common-{0}</value>
   </data>
 </root>

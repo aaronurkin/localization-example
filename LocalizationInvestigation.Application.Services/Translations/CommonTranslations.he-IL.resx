@@ -117,34 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="FORECAST_SUMMARY_BALMY" xml:space="preserve">
-    <value>באלי-{0}</value>
-  </data>
-  <data name="FORECAST_SUMMARY_BRACING" xml:space="preserve">
-    <value>סדנאות-{0}</value>
-  </data>
-  <data name="FORECAST_SUMMARY_CHILLY" xml:space="preserve">
-    <value>קרִיר-{0}</value>
-  </data>
-  <data name="FORECAST_SUMMARY_COOL" xml:space="preserve">
-    <value>מגניב-{0}</value>
-  </data>
-  <data name="FORECAST_SUMMARY_FREEZING" xml:space="preserve">
-    <value>קפיאה-{0}</value>
-  </data>
-  <data name="FORECAST_SUMMARY_HOT" xml:space="preserve">
-    <value>חם-{0}</value>
-  </data>
-  <data name="FORECAST_SUMMARY_MILD" xml:space="preserve">
-    <value>מתון-{0}</value>
-  </data>
-  <data name="FORECAST_SUMMARY_SCORCHING" xml:space="preserve">
-    <value>הבהוב-{0}</value>
-  </data>
-  <data name="FORECAST_SUMMARY_SWELTERING" xml:space="preserve">
-    <value>סחף-{0}</value>
-  </data>
-  <data name="FORECAST_SUMMARY_WARM" xml:space="preserve">
-    <value>נעים-{0}</value>
+  <data name="COMMON" xml:space="preserve">
+    <value>משותף-{0}</value>
   </data>
 </root>

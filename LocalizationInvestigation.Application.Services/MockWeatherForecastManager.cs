@@ -1,5 +1,4 @@
 ﻿using LocalizationInvestigation.Application.Models;
-using Microsoft.Extensions.Localization;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -25,15 +24,17 @@ namespace LocalizationInvestigation.Application.Services
             "FORECAST_SUMMARY_BALMY",
             "FORECAST_SUMMARY_HOT",
             "FORECAST_SUMMARY_SWELTERING",
-            "FORECAST_SUMMARY_SCORCHING"
+            "FORECAST_SUMMARY_SCORCHING",
+            "COMMON"
         };
 
-        private readonly IStringLocalizer<MockWeatherForecastManager> translate;
+        private readonly ITranslator<MockWeatherForecastManager> translator;
 
-        public MockWeatherForecastManager(IStringLocalizer<MockWeatherForecastManager> translate)
+        public MockWeatherForecastManager(ITranslator<MockWeatherForecastManager> translator)
         {
-            this.translate = translate ?? throw new ArgumentNullException(nameof(translate));
+            this.translator = translator ?? throw new ArgumentNullException(nameof(translator));
         }
+
         public IEnumerable<WeatherForecast> GetWeatherForecast()
         {
             var rng = new Random();
@@ -41,7 +42,7 @@ namespace LocalizationInvestigation.Application.Services
             {
                 Date = DateTime.Now.AddDays(index),
                 TemperatureC = rng.Next(-20, 55),
-                Summary = this.translate[Summaries[rng.Next(Summaries.Length)], CultureInfo.CurrentCulture.Name]
+                Summary = this.translator.Translate(Summaries[rng.Next(Summaries.Length)], CultureInfo.CurrentCulture.Name)
             })
             .ToArray();
         }

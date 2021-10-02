@@ -14,13 +14,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Translations\IWeatherForecastManager.en-US.resx">
+    <EmbeddedResource Update="Translations\CommonTranslations.en-US.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Translations\IWeatherForecastManager.en.resx">
+    <EmbeddedResource Update="Translations\CommonTranslations.en.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Translations\IWeatherForecastManager.he-IL.resx">
+    <EmbeddedResource Update="Translations\CommonTranslations.he-IL.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Translations\MockWeatherForecastManager.en-US.resx">

@@ -8,6 +8,9 @@ namespace Microsoft.Extensions.DependencyInjection
         public static IServiceCollection AddBusinessLogic(this IServiceCollection services, IConfiguration configuration)
         {
             services
+                .AddTransient(typeof(ITranslator<>), typeof(MicrosoftLocalizerTranslator<>));
+
+            services
                 .AddScoped<IWeatherForecastManager, MockWeatherForecastManager>();
 
             return services;
